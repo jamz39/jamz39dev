@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าแรกเว็บไซต์ของฉัน</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #0078d7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #005a9e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+            background: white;
+        }
+
+        .hero h1 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .hero p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #0078d7;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #005a9e;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #0078d7;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ยินดีต้อนรับสู่เว็บไซต์ของฉัน</h1>
+        <p>ตัวอย่างหน้าแรก HTML5</p>
+    </header>
+
+    <nav>
+        <a href="#">หน้าแรก</a>
+        <a href="#">เกี่ยวกับเรา</a>
+        <a href="#">บริการ</a>
+        <a href="#">ติดต่อ</a>
+    </nav>
+
+    <section class="hero">
+        <h1>สร้างเว็บไซต์ด้วย HTML5</h1>
+        <p>นี่คือตัวอย่างหน้าแรกที่ออกแบบด้วย HTML5 และ CSS</p>
+        <a href="#" class="btn">เริ่มต้นใช้งาน</a>
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <h3>HTML5</h3>
+            <p>โครงสร้างเว็บไซต์ที่ทันสมัย รองรับทุก Browser</p>
+        </div>
+
+        <div class="card">
+            <h3>CSS3</h3>
+            <p>ตกแต่งเว็บไซต์ให้สวยงามและตอบสนองทุกอุปกรณ์</p>
+        </div>
+
+        <div class="card">
+            <h3>JavaScript</h3>
+            <p>เพิ่มความสามารถและความโต้ตอบให้กับเว็บไซต์</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 My Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
